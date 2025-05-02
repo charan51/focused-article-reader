@@ -1,0 +1,1 @@
+console.log("Focused Article Reader: Background script loaded.");
