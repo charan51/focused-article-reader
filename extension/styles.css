@@ -36,3 +36,27 @@
 #reader-toolbar input[type="range"] {
   width: 100%;
 }
+
+#reader-container {
+  display: none; /* Hidden by default; shown during TTS */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.reader-sentence {
+  display: inline;
+}
+
+.reader-sentence.highlighted {
+  background-color: #fef08a; /* Yellow highlight */
+}
