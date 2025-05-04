@@ -17,7 +17,8 @@
 }
 
 #reader-toolbar button,
-#reader-toolbar input {
+#reader-toolbar input,
+#reader-toolbar select {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #d1d5db;
@@ -38,7 +39,7 @@
 }
 
 #reader-container {
-  display: none; /* Hidden by default; shown during TTS */
+  display: none;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -58,5 +59,13 @@
 }
 
 .reader-sentence.highlighted {
-  background-color: #fef08a; /* Yellow highlight */
+  background-color: #fef08a;
+}
+
+.selection-highlight {
+  background-color: #bfdbfe;
+}
+
+.hover-highlight {
+  background-color: #d1fae5;
 }
